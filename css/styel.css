@@ -1,0 +1,710 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+ 
+ .navbar-toggler .navbar-toggler-icon{
+ background-color: #f5f5f5;
+ }
+.navbar .navbar-brand{
+    color: aliceblue;
+    font-size: 30px;
+}
+.navbar .nav-link {
+    color: #f5f5f5;
+    font-size: 18px;
+}
+.hero{
+    height: 100vh;
+    background-image: url(../photo/hero-bg.jpg);
+    background-position: center;
+}
+.hero-layout{
+    background-color: rgba(0,0, 0,0.5);
+    height: 100%;
+}
+.hero-caption{
+    transition: 2s all;
+    position: relative;
+}
+.hero-caption h1{
+     
+    font-size: 40PX;
+    color: aliceblue;
+     padding: 100px;
+    text-align: center;
+    
+}
+.home{
+    color: #f5f5f5;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+
+}
+.home::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+  
+}
+ 
+
+.hero-caption h1::after{
+content: "";
+position: absolute;
+animation: DevfolioName infinite 10s;
+ 
+
+}
+ 
+ li{
+    padding: 10px;
+    position: relative;
+     }
+    
+  li::after{
+        content: "";
+        width: 0px;
+        height: 1px;
+        background-color: #f5f5f5;
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        transition: 0.3s; 
+        
+       
+     }
+      li:hover::after{
+        width: 60%; 
+        height: 3px; 
+     }
+     
+
+     
+    
+    @keyframes  DevfolioName {
+    0% {
+        content: "|";
+    }
+
+    1% {
+        content: "D|"; 
+    }
+
+    2% {
+        content: "De|";
+    }
+
+    3% {
+        content: "Des|";
+    }
+
+    4% {
+        content: "Desi|";
+    }
+
+    5% {
+        content: "Desig|";
+    }
+
+    6% {
+        content: "Designe|";
+    }
+
+    7% {
+        content: "Designer|";
+    }
+
+    8% {
+        content: "Designe|";
+    }
+
+    9% {
+        content: "Design|";
+    }
+
+    10% {
+        content: "Desig|";
+    }
+
+    20% {
+        content: "Desi|";
+    }
+
+    21% {
+        content: " Des|";
+    }
+
+    22% {
+        content: "De|";
+    }
+
+    23% {
+        content: " D|";
+    }
+
+    24% {
+        content: "|";
+    }
+
+    25% {
+        content: " D|";
+    }
+
+    26% {
+        content: "De|";
+    }
+
+    27% {
+        content: "Dev|";
+    }
+
+    28% {
+        content: "Deve|";
+    }
+
+    29% {
+        content: "Devel|";
+    }
+
+    30% {
+        content: "Develo|";
+    }
+
+    31% {
+        content: "Develop|";
+    }
+
+    32% {
+        content: " Develope|";
+    }
+
+    33% {
+        content: "Developer|";
+    }
+
+
+    34% {
+        content: "  Developer|";
+    }
+
+
+    35% {
+        content: "Develope|";
+    }
+
+    36% {
+        content: "Develop|";
+    }
+
+
+    37% {
+        content: "Develo|";
+    }
+
+
+    38% {
+        content: " Devel|";
+    }
+
+
+    39% {
+        content: "Deve|";
+    }
+
+
+    40% {
+        content: " Dev| ";
+    }
+
+
+    41% {
+        content: "D|";
+    }
+
+
+    42% {
+        content: "| ";
+    }
+
+    52% {
+        content: "F|"; 
+    }
+
+    53% {
+        content: " Fr|";
+    }
+
+    54% {
+        content: " Fre|";
+    }
+
+    55% {
+        content: " Free|";
+    }
+
+    56% {
+        content: " Freel|";
+    }
+
+    57% {
+        content: "  Freela|";
+    }
+
+    58% {
+        content: "Freelan|";
+    }
+
+    59% {
+        content: "Freelanc|";
+    }
+
+    60% {
+        content: "Freelance|";
+    }
+
+    61% {
+        content: " Freelancer| ";
+    }
+
+    62% {
+        content: "  Freelance| ";
+    }
+
+    63% {
+        content: " Freelanc|";
+    }
+
+    64% {
+        content: "Freelan|";
+    }
+
+    65% {
+        content: "Freela|";
+    }
+
+    66% {
+        content: "Freel|";
+    }
+
+    67% {
+        content: "Free|";
+    }
+
+    68% {
+        content: "  Fre|";
+    }
+
+    70% {
+        content: "  Fr|";
+    }
+
+    71% {
+        content: "F|";
+    }
+
+    72% {
+        content: "F|";
+    }
+
+    73% {
+        content: " p|";
+    }
+
+    74% {
+        content: " Ph|";
+    }
+
+    75% {
+        content: " Pho|";
+    }
+
+    80% {
+        content: " Phot|";
+    }
+
+    81% {
+        content: "Photo|";
+    }
+
+    82% {
+        content: "Photog|";
+    }
+
+    83% {
+        content: "Photogr|";
+    }
+
+    84% {
+        content: " Photogr|";
+    }
+
+    85% {
+        content: " Photog|";
+    }
+
+    86% {
+        content: " Photo|";
+    }
+
+    87% {
+        content: "  Pho|";
+    }
+
+    88% {
+        content: " Ph|";
+    }
+
+    89% {
+        content: "  P|";
+    }
+
+    90% {
+        content: " |";
+    }
+
+    91% {
+        content: "  D|";
+    }
+
+    92% {
+        content: "     De|";
+    }
+
+    93% {
+        content: "   Des|";
+    }
+
+    94% {
+        content: "   Desi|";
+    }
+
+    95% {
+        content: " Desig|";
+    }
+
+    96% {
+        content: " Design|";
+    }
+
+    97% {
+        content: " Designe|";
+    }
+
+    100% {
+        content: " Designer.|";
+    }
+
+}
+/*about*/
+.about{
+    padding: 30px 40px;
+    box-shadow:  20px azure;
+    display: flex;
+    justify-content: space-around;
+}
+.about-me h2{
+position: relative;
+}
+.about-me h2::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: #007aff;
+    bottom: 0;
+    left: 10px;
+    margin: -10px  5px;
+}
+ .class{
+     width: 500px;
+  
+ }
+.name{
+    display: flex;
+}
+.name img{
+    width: 40%;
+    height: 30%;
+    border-radius: 8px;
+}
+.about-me p{
+    font-size: 20px;
+    color: rgb(128, 125, 125);
+}
+/*serices*/
+.iconn{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50% ;
+     
+    
+
+}
+.about-heding p{
+    position: relative;
+}
+.about-heding p::after{
+    content: "";
+    width: 50px;
+    height: 5px;
+    bottom: 0;
+    left: 150px;
+   margin: -10px  5px;
+    position: absolute;
+    background-color: #007aff;
+}
+.ser-me{
+    background-color: rgb(241, 238, 238);
+   
+}
+.services{
+    display: flex;
+ 
+       padding: 40px 30px;
+        
+}
+.services2{
+    display: flex;
+    padding: 40px 30px;
+}
+ 
+ 
+ 
+.serv1 {
+    display: flex;
+    justify-content: space-between;
+  
+}
+ 
+.services2 .serv2{
+    display: flex;
+}
+.so1{
+    display: flex;
+    flex-direction: column;
+   padding: 40px 40px;
+   margin: 10px 20px;
+   background-color: rgb(243, 244, 244);
+    
+}
+.soo{
+     
+  gap: 10px;
+  border-radius: 10px;
+}
+ 
+
+/*pag3*/
+.bag3{
+    
+    background-image: url(../photo/counters-bg.jpg);
+height: 60vh;
+background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+     
+  
+}
+.bag-layout{
+    background-color:rgba(4, 92, 255, 0.5);
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: antiquewhite;
+}
+.bag1{
+    display: flex;
+    flex-direction: column;
+}
+.bag1 h3{
+    font-size: 40px;
+}
+.bag1 p{
+    font-size: 20px;
+}
+ .icon{
+    font-size: 40px;
+    padding: 20px 10px;
+    border-radius: 50px antiquewhite;
+ }
+ /*PORTFOLIO*/
+.about-heding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.about-heding h2{
+    font-size: 50px;
+}
+.item{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 30px;
+}
+ .item1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 30px; 
+ }
+/*PAG5*/
+.bag5{
+    background-image: url(../photo/overlay-bg.jpg);
+    height: 60vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+     
+   
+}
+ 
+.bag5-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     color: antiquewhite;
+     align-items: center;
+}
+.bag5 img{
+    width: 100px;
+    border-radius: 50%;
+}
+.bag5.bag-layout{
+    background-color:rgba(4, 92, 255, 0.5);
+    height: 100vh;
+}
+/*blog*/
+ 
+ 
+ 
+.icono{
+    border-radius: 50%;
+}
+    
+/*fan*/
+.bag6{
+    background-image: url(../photo/overlay-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+     
+   
+}
+.bag6 .bag-layout{
+    background-color:rgba(4, 92, 255, 0.5);
+    height: 100vh;
+}
+.fan1{
+    width: 75%;
+    height: 95%;
+    z-index: 1;
+    background-color:#f5f5f5;
+    display: flex;
+}
+.send{
+    padding: 30px;
+}
+ .send h3{
+    color: black;
+    padding: 20px 30px;
+}
+.send input{
+   margin: 10px;
+   padding: 0px 10px;
+   width: 90%;
+}
+.send textarea{
+    margin: 10px;
+    padding: 0px 10px;
+}
+.send button{
+    
+    font-size: 20px;
+    padding: 15px ;
+    border-radius: 40%;
+    background-color: #0078ff ;
+}
+.get h3{
+    color: black;
+    padding: 50px 30px; 
+}
+.get{
+    display: grid;
+    grid-auto-rows: minmax(50px,auto);
+}
+.get p{
+    color: rgb(64, 62, 62);
+    font-size: 20px;
+    padding: 10px;
+}
+.icone{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50% ;
+     
+    
+
+}
+.fa-icon{
+    padding: 10px 10px;
+}
+.copyer {
+    flex-direction: column;
+    background-color:#0062d3;
+}
+.faa-icon{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50% ;
+    padding: 5px;
+  
+}
+.send h3{
+    position: relative;
+}
+.send h3::after{
+    content: "";
+    width: 100px;
+    height: 5px;
+    bottom: 0;
+    left: 50px;
+   margin: -2px;
+    position: absolute;
+    background-color: #007aff;
+}
+ .get h3{
+    color: black;
+    font-size: 30px;
+    position: relative;
+    padding: 10px 20px;
+}
+ .get h3::after{
+    content: "";
+    width: 100px;
+    height: 5px;
+    bottom: 0;
+    left: 50px;
+   margin: -2px;
+    position: absolute;
+    background-color: #007aff;
+}
+.sharp{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    text-align: center;
+     
+    
+}
+ 
